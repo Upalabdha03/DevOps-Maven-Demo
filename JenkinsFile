@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-             git branch: 'main',url: 'https://github.com/Upalabdha03/DevOps-Maven-Demo'
+             git branch: 'main',url:'https://github.com/Upalabdha03/DevOps-Maven-Demo.git'
             }
         }
 
